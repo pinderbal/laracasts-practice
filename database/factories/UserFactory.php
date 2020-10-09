@@ -31,3 +31,8 @@ class UserFactory extends Factory
         ];
     }
 }
+// on console
+// php artisan tinker
+// User::factory()->create();
+// $users = User::factory()->count(10)->create();
+// more info: https://stackoverflow.com/questions/63824410/unable-to-use-laravel-factory-in-tinker
