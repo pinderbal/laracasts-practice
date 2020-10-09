@@ -35,7 +35,7 @@
                             class="textarea @error('excerpt') danger @enderror" 
                             name="excerpt" 
                             id="excerpt"
-                            >{{ old('excerpt') }} </textarea>
+                            >{{ old('excerpt') }}</textarea>
                         @error('excerpt')
                             <p class="help danger">{{ $errors->first('excerpt') }}</p>
                         @enderror
